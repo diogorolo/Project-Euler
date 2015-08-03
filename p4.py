@@ -1,4 +1,4 @@
-def prob3():
+def prob4():
 	num1 = 999
 	num2 = 999
 	maxVal = -1
@@ -19,4 +19,4 @@ def prob3():
 			
 	return maxVal
 	
-print(prob3())
+print(prob4())
