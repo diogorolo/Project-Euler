@@ -1,12 +1,6 @@
-from math import sqrt,ceil
+from common import isPrime
+from math import ceil,sqrt
 
-def isPrime(num):
-	for i in range(2,int(ceil(sqrt(num)))):
-		if num % i == 0:
-			return False
-	return True
-	
-	
 def prob3():
 	number = 600851475143
 	
@@ -17,10 +11,6 @@ def prob3():
 			primeList.add(i)
 			if number % i == 0:
 				primeFactors.add(i)
-	return primeFactors
+	return max(primeFactors)
 	
 print(prob3())
-	
-
-
-			
