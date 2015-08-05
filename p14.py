@@ -1,5 +1,5 @@
 
-def prob11():
+def prob14():
 	bestNum = -1
 	maxCounter = -1
 	numsSet = set()
@@ -17,4 +17,4 @@ def prob11():
 			bestNum = initialNum
 	return bestNum
 
-print(prob11())
+print(prob14())
